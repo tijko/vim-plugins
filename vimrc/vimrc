@@ -20,6 +20,7 @@ runtime! archlinux.vim
 :set shiftwidth=4
 :set expandtab
 :set hlsearch
+:set fileformat=unix
 
 :let mapleader = ","
 
