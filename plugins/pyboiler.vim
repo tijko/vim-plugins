@@ -1,6 +1,9 @@
-" Insert #!/usr/bin/env python 
-"        # -*- coding: utf-8 -*-
-"        if __name__ == '__main__':
+" Insert 
+" #!/usr/bin/env python 
+" # -*- coding: utf-8 -*-
+"
+" if __name__ == '__main__':
+"
 " for all *.py extension files
 
 function! PyBoilerPlate()

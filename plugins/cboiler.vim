@@ -1,4 +1,10 @@
-" Insert #include <stdio.h> int main(int argc, char *argv[]) { return 0; } 
+" Insert
+" #include <stdio.h> 
+" int main(int argc, char *argv[]) 
+" { 
+"   return 0; 
+" }
+"
 " for all *.c extension files.
 
 function! CBoilerPlate()
