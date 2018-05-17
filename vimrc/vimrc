@@ -38,3 +38,4 @@ runtime! archlinux.vim
 
 :autocmd BufNewFile *.c :call CBoilerPlate()
 :autocmd BufNewFile *.py :call PyBoilerPlate()
+:autocmd BufNewFile *.sh :call ShBoilerPlate()
