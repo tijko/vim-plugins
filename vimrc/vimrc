@@ -21,6 +21,8 @@ runtime! archlinux.vim
 :set noexpandtab
 :set hlsearch
 :set fileformat=unix
+:set relativenumber
+:colorscheme ron
 
 :let mapleader = ","
 
