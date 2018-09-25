@@ -45,3 +45,4 @@ execute pathogen#infect()
 :autocmd BufNewFile *.sh :call ShBoilerPlate()
 
 nmap <F8> :TagbarToggle<CR>
+nmap <F9> :NERDTreeToggle<CR>
