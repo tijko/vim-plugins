@@ -16,13 +16,15 @@ runtime! archlinux.vim
 
 :syntax on
 
-:set tabstop=8
+:set tabstop=4
 :set shiftwidth=4
 :set noexpandtab
 :set hlsearch
 :set fileformat=unix
 :set relativenumber
 :colorscheme ron
+
+execute pathogen#infect()
 
 :let mapleader = ","
 
@@ -41,3 +43,5 @@ runtime! archlinux.vim
 :autocmd BufNewFile *.c :call CBoilerPlate()
 :autocmd BufNewFile *.py :call PyBoilerPlate()
 :autocmd BufNewFile *.sh :call ShBoilerPlate()
+
+nmap <F8> :TagbarToggle<CR>
